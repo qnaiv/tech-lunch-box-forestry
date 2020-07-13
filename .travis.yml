@@ -1,0 +1,11 @@
+script:
+  - npm install
+  - npm run build
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $github_token
+  keep_history: true
+  local-dir: dist
+  on:
+    branch: master
