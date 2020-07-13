@@ -1,15 +1,14 @@
 ---
 title: Magical nature, God is perfect
 date: 2018-11-7
-tags: 
-  - frontmatter
-  - vuepress
+tags:
+- frontmatter
+- vuepress
 author: Sal
-featuredimg: https://images.unsplash.com/photo-1523978591478-c753949ff840?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExMzk2fQ&auto=format&fit=crop&w=1350&q=80
+featuredimg: ''
 summary: I have travelled for so long that I can't even remember my own city.
 
 ---
-
 Any markdown file that contains a YAML front matter block will be processed by [gray-matter](https://github.com/jonschlinkert/gray-matter). The front matter must be the first thing in the markdown file and must take the form of valid YAML set between triple-dashed lines. Here is a basic example:
 
 ```markdown
