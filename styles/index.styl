@@ -29,7 +29,8 @@ img
 a
   color: $green
 nav
-  border-bottom: 1px solid rgba(0, 0, 0, 0.125)
+  border: none
+  // border-bottom: 1px solid rgba(0, 0, 0, 0.125)
 .navbar-brand
   font-size: 1.6rem
   font-weight: 700
@@ -136,11 +137,11 @@ nav
     left: calc(50% + 40px)
 .card
   padding: 20px
-  border-radius: 0
-  -webkit-border-radius: 0
-  -moz-border-radius: 0
-  -ms-border-radius: 0
-  -o-border-radius: 0
+  border-radius: 0.25rem !important
+  -webkit-border-radius: 0.25rem !important
+  -moz-border-radius: 0.25rem !important
+  -ms-border-radius: 0.25rem !important
+  -o-border-radius: 0.25rem !important
 .card-header-image
   display: block
   margin: -20px -20px 0 -20px
@@ -150,6 +151,7 @@ nav
     height: 180px
     width: 100%
     cursor: pointer
+    border-radius: 0.25rem 0.25rem 0 0;
 .card-subheading a
   color: $color_2
   font-size: 13px
@@ -216,7 +218,7 @@ code
   font-size: .85em
   border-radius: 3px
 .themefooter
-  background-color: rgba(0, 0, 0, 1)
+  background-color: #52c565
   margin-top: 80px
   padding: 50px 0
   color: rgba(255, 255, 255, 0.5)

@@ -1,17 +1,17 @@
 module.exports = {
-  title: 'Mediumish',
+  title: 'tech lunch box',
   base: '/',
   dest: 'public',
   description: 'Mediumish theme with VuePress and Forestry',
   logo: './assets/img/logo.png',
   theme: require.resolve('../../'),
   themeConfig: {
-  authors: [
+    authors: [
       {
-      name: 'Sal',
-      avatar: '/assets/img/sal.jpg',
-      link: 'https://wowthemes.net/donate',
-      linktext: 'Follow',
+        name: 'Sal',
+        avatar: '/assets/img/sal.jpg',
+        link: 'https://wowthemes.net/donate',
+        linktext: 'Follow',
       },
       {
         name: 'John Doe',
@@ -65,7 +65,7 @@ module.exports = {
         {
           type: 'web',
           link: '#',
-        }
+        },
       ],
       copyright: [
         {
@@ -74,24 +74,27 @@ module.exports = {
         },
         {
           text: 'Made with Mediumish - free Vuepress theme',
-          link: 'https://bootstrapstarter.com/bootstrap-templates/vuepress-theme-mediumish/',
+          link:
+            'https://bootstrapstarter.com/bootstrap-templates/vuepress-theme-mediumish/',
         },
       ],
     },
 
     sitemap: {
-      hostname: 'https://github.com/wowthemesnet/vuepress-theme-mediumish/'
+      hostname: 'https://github.com/wowthemesnet/vuepress-theme-mediumish/',
     },
     comment: {
       service: 'disqus',
       shortname: 'demowebsite',
     },
     newsletter: {
-      endpoint: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&id=8c3d2d214b'
+      endpoint:
+        'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&id=8c3d2d214b',
     },
     feed: {
-      canonical_base: 'https://github.com/wowthemesnet/vuepress-theme-mediumish/',
+      canonical_base:
+        'https://github.com/wowthemesnet/vuepress-theme-mediumish/',
     },
-    smoothScroll: true
+    smoothScroll: true,
   },
 }
