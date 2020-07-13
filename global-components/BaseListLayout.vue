@@ -18,13 +18,6 @@
           <div class="card-header-image">
             <NavLink :link="page.path">
               <img :src="page.frontmatter.featuredimg" />
-              <div v-if="!!!page.frontmatter.featuredimg">
-                <span
-                  v-for="tag in resolvePostTags(page.frontmatter.tags)"
-                  :key="tag"
-                  >{{ tag }}</span
-                >
-              </div>
             </NavLink>
           </div>
 
@@ -44,9 +37,9 @@
               </div>
             </div>
             <h2 class="heading" itemprop="name headline">
-              <NavLink :link="page.path" class="heading">{{
-                page.title
-              }}</NavLink>
+              <NavLink :link="page.path" class="heading">
+                {{ page.title }}
+              </NavLink>
             </h2>
             <p itemprop="description">
               {{ page.frontmatter.summary || page.summary }}
