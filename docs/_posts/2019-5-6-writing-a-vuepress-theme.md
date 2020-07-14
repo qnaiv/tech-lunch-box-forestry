@@ -10,14 +10,14 @@ featuredimg: https://images.unsplash.com/photo-1573247318220-c2683ee87351?ixlib=
 summary: Mediumish is the best VuePress theme Medium styled.
 
 ---
+![](/assets/img/lunchbox-logo.png)
+
 To write a theme, create a `.vuepress/theme` directory in your docs root, and then create a `Layout.vue` file:
 
-```
-.
-└─ .vuepress
-   └─ `theme`
-       └─ Layout.vue
-```
+    .
+    └─ .vuepress
+       └─ `theme`
+           └─ Layout.vue
 
 From there it's the same as developing a normal Vue application. It is entirely up to you how to organize your theme.
 
@@ -35,7 +35,7 @@ The compiled content of the current `.md` file being rendered will be available 
 
 **Also see:**
 
-- [Markdown Slot](../guide/markdown-slot.md)
+* [Markdown Slot](../guide/markdown-slot.md)
 
 ## Directory Structure
 
@@ -63,16 +63,17 @@ theme
 └── package.json
 :::
 
-- `theme/global-components`: Components under this directory will be automatically registered as global components. For details, please refer to [@vuepress/plugin-register-components](https://github.com/vuejs/vuepress/tree/master/packages/@vuepress/plugin-register-components).
-- `theme/components`: Your components.
-- `theme/layouts`: Layout components of the theme, where `Layout.vue` is required.
-- `theme/styles`: Global style and palette.
-- `theme/templates`: Modify default template.
-- `theme/index.js`: Entry file of theme configuration.
-- `theme/enhanceApp.js`: Theme level enhancements.
+* `theme/global-components`: Components under this directory will be automatically registered as global components. For details, please refer to [@vuepress/plugin-register-components](https://github.com/vuejs/vuepress/tree/master/packages/@vuepress/plugin-register-components).
+* `theme/components`: Your components.
+* `theme/layouts`: Layout components of the theme, where `Layout.vue` is required.
+* `theme/styles`: Global style and palette.
+* `theme/templates`: Modify default template.
+* `theme/index.js`: Entry file of theme configuration.
+* `theme/enhanceApp.js`: Theme level enhancements.
 
 ::: warning Note
 When you publish your theme as an NPM package, if you don't have any theme configuration, that means you don't have `theme/index.js`, you'll need to set the `"main"` field  to `layouts/Layout.vue` in `package.json`, only in this way VuePress can correctly resolve the theme.
+
 ```json
 {
   ...
@@ -90,9 +91,9 @@ Suppose your theme layouts folder is as follows:
 ::: vue
 theme
 └── `layouts`
-    ├── Layout.vue
-    ├── AnotherLayout.vue
-    └── 404.vue
+   ├── Layout.vue
+   ├── AnotherLayout.vue
+   └── 404.vue
 :::
 
 Then, all the pages will use `Layout.vue` as layout component by default, while the routes not matching will use `404.vue`.
@@ -103,7 +104,7 @@ If you want to switch the layout of some pages to `AnotherLayout.vue`, you just 
 ---
 layout: AnotherLayout
 ---
-````
+```
 
 ::: tip
 Each layout component may render distinct pages. If you want to apply some global UI (e.g. global header), consider using [globalLayout](./option-api.md#globallayout)。
@@ -166,7 +167,7 @@ If the user provided `themeConfig` in `.vuepress/config.js`, it will also be ava
 Finally, don't forget that `this.$route` and `this.$router` are also available as part of Vue Router's API.
 
 ::: tip
-  `lastUpdated` is the UNIX timestamp of this file's last git commit, for more details, refer to [Last Updated](../theme/default-theme-config.md#last-updated).
+`lastUpdated` is the UNIX timestamp of this file's last git commit, for more details, refer to [Last Updated](../theme/default-theme-config.md#last-updated).
 :::
 
 ## Content Excerpt
