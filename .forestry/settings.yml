@@ -19,7 +19,7 @@ sections:
   templates:
   - page
 upload_dir: docs/.vuepress/public/assets/img
-public_path: "/tech-lunch-box-forestry/assets/img"
+public_path: "/assets/img"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
