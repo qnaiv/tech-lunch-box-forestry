@@ -10,7 +10,7 @@ featuredimg: https://images.unsplash.com/photo-1573247318220-c2683ee87351?ixlib=
 summary: Mediumish is the best VuePress theme Medium styled.
 
 ---
-![](/assets/img/lunchbox-logo.png)
+![](/tech-lunch-box-forestry/assets/img/lunchbox-logo.png)
 
 To write a theme, create a `.vuepress/theme` directory in your docs root, and then create a `Layout.vue` file:
 
