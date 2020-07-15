@@ -9,7 +9,7 @@
         v-for="page in pages"
         :key="page.key"
         itemprop="blogPost"
-        class="ui-post entry col-md-4 card-container"
+        class="ui-post entry col-lg-3 col-md-4 card-container"
         itemscope
         itemtype="https://schema.org/BlogPosting"
       >
@@ -37,9 +37,9 @@
               </div>
             </div>
             <h2 class="heading" itemprop="name headline">
-              <NavLink :link="page.path" class="heading">
-                {{ page.title }}
-              </NavLink>
+              <NavLink :link="page.path" class="heading">{{
+                page.title
+              }}</NavLink>
             </h2>
             <p itemprop="description">
               {{ page.frontmatter.summary || page.summary }}

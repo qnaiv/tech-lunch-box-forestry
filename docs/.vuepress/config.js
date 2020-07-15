@@ -2,7 +2,7 @@ module.exports = {
   title: 'tech lunch box',
   // base: '/tech-lunch-box-forestry/',
   dest: 'public',
-  description: 'Mediumish theme with VuePress and Forestry',
+  description: '',
   logo: './assets/img/logo.png',
   theme: require.resolve('../../'),
   themeConfig: {
