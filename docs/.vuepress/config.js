@@ -4,6 +4,11 @@ module.exports = {
     ["link", { rel: "apple-touch-icon", href: "./assets/img/apple-touch-icon.png" }],
     ["link", { rel: 'sttylesheet', href: 'https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c' }]
   ],
+  locales: {
+    '/': {
+      lang: 'ja'
+    }
+  },
   title: 'tech lunch box',
   // base: '/tech-lunch-box-forestry/',
   dest: 'public',
