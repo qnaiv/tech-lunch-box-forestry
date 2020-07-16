@@ -8,9 +8,6 @@ fields:
 - type: datetime
   name: date
   label: date
-- type: text
-  name: author
-  label: author
 - name: tags
   type: tag_list
   default: []
@@ -23,6 +20,3 @@ fields:
 - type: text
   name: summary
   label: summary
-pages:
-- docs/_posts/2019-2-26-markdown-slot-3.md
-- docs/_posts/test-post.md
