@@ -8,9 +8,6 @@ fields:
 - type: datetime
   name: date
   label: date
-- type: text
-  name: author
-  label: author
 - name: tags
   type: tag_list
   default: []
@@ -24,5 +21,7 @@ fields:
   name: summary
   label: summary
 pages:
-- docs/_posts/2019-2-26-markdown-slot-3.md
-- docs/_posts/test-post.md
+- docs/_posts/git-author-commiter.md
+- docs/_posts/github-fork.md
+- docs/_posts/spring-boot.md
+- docs/_posts/vuepress-github-pages.md
