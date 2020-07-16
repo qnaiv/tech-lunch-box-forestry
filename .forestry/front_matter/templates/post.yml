@@ -21,4 +21,5 @@ fields:
   name: summary
   label: summary
 pages:
+- docs/_posts/github-fork.md
 - docs/_posts/vuepress-github-pages.md
