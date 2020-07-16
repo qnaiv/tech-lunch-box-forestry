@@ -5,7 +5,7 @@ tags:
 title: vuepressで作った静的サイトをGithub pagesで公開するまで
 date: 2019-06-14 15:00:00 +0000
 featuredimg: "/assets/img/vuepress-github-pages.png"
-summary: 1からvuepressの導入する方法・基本的な使い方  Github pagesで静的サイトを公開する方法
+summary: vuepress + github pages。自動デプロイについては別記事。
 
 ---
 # vuepressで作った静的サイトをGithub pagesで公開するまで
