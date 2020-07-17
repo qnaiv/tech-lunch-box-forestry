@@ -2,7 +2,10 @@
   <div id="mobile-header">
     <div class="mobile-header-bar">
       <div class="mobile-header-title">
-        <NavLink link="/" class="mobile-home-link navbar-brand"><img :src="($withBase)($themeConfig.logo)"> {{ $site.title }} </NavLink>
+        <NavLink link="/" class="mobile-home-link navbar-brand">
+          <img :src="$withBase($themeConfig.logo)" />
+          <span class="site-title">{{ $site.title }}</span>
+        </NavLink>
         <component
           :is="isOpen ? 'XIcon' : 'MenuIcon'"
           @click="$emit('toggle-sidebar')"
@@ -46,49 +49,64 @@ export default {
 </script>
 
 <style lang="stylus">
-.mobile-header-bar
-  z-index 12
-  position fixed
-  top 0
-  width 100vw
-  box-sizing border-box
-  background-color $headerBgColor
-  margin auto
-  box-shadow 0 5px 20px rgba(0, 0, 0, 0.03), 0 6px 6px rgba(0, 0, 0, 0.05)
-  transition all 1s cubic-bezier(0.25, 0.8, 0.25, 1)
+.mobile-header-bar {
+  z-index: 12;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  box-sizing: border-box;
+  background-color: $headerBgColor;
+  margin: auto;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.03), 0 6px 6px rgba(0, 0, 0, 0.05);
+  transition: all 1s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
 
-#mobile-header
-  .mobile-header-title
-    display flex
-    align-items center
-    justify-content space-between
-    padding 1.2em
+#mobile-header {
+  .mobile-header-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.2em;
 
-    .mobile-home-link
-      text-decoration none
-      color inherit
+    .mobile-home-link {
+      text-decoration: none;
+      color: inherit;
+    }
 
-.mobile-nav-item
-  padding 10px 0
-  list-style none
+    .site-title {
+      margin-left: 10px;
+    }
+  }
+}
 
-  a
-    text-decoration none
+.mobile-nav-item {
+  padding: 10px 0;
+  list-style: none;
 
-.menu-divider
-  margin 0
+  a {
+    text-decoration: none;
+  }
+}
 
-.mobile-menu-wrapper
-  max-height 0
-  overflow hidden
-  transition 0.3s ease
-  background-color $headerBgColor
+.menu-divider {
+  margin: 0;
+}
 
-.mobile-menu-wrapper.open
-  max-height 450px
-  transition 0.3s ease
+.mobile-menu-wrapper {
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.3s ease;
+  background-color: $headerBgColor;
+}
 
-@media (min-width: $MQMobile)
-  #mobile-header
-    display none
+.mobile-menu-wrapper.open {
+  max-height: 450px;
+  transition: 0.3s ease;
+}
+
+@media (min-width: $MQMobile) {
+  #mobile-header {
+    display: none;
+  }
+}
 </style>
