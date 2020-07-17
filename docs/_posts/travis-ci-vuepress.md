@@ -3,7 +3,7 @@ tags:
 - vuepress
 - github pages
 - travis ci
-featuredimg: "/assets/img/20200716-lunchbox-feature-image.png"
+featuredimg: "/assets/img/vuepress-travisci.png"
 title: Travis CIでVuepressの公開を自動化する
 date: 2019-07-21 15:00:00 +0000
 summary: ''
