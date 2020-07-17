@@ -24,6 +24,7 @@ fields:
 pages:
 - docs/_posts/git-author-commiter.md
 - docs/_posts/github-fork.md
+- docs/_posts/jwt.md
 - docs/_posts/spring-boot.md
 - docs/_posts/travis-ci-vuepress.md
 - docs/_posts/vuepress-github-pages.md
