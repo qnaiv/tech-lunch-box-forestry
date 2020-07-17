@@ -3,7 +3,7 @@ tags:
 - github
 title: gitで過去コミットのauthorとcommiterを変更する
 date: 2019-06-17T15:00:00.000+00:00
-featuredimg: "/assets/img/tech-lunch-box-notext.png"
+featuredimg: "/assets/img/20200716-lunchbox-feature-image.png"
 summary: githubにコミットしたらPC名出ちゃったときの話。
 
 ---
