@@ -17,7 +17,7 @@ fields:
   config:
     maxSize: 64
   label: featuredimg
-  default: "/assets/img/tech-lunch-box-notext.png"
+  default: "/assets/img/20200716-lunchbox-feature-image.png"
 - type: text
   name: summary
   label: summary
