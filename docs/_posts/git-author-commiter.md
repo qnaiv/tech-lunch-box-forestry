@@ -4,12 +4,10 @@ tags:
 title: gitで過去コミットのauthorとcommiterを変更する
 date: 2019-06-17T15:00:00.000+00:00
 featuredimg: "/assets/img/20200716-lunchbox-feature-image.png"
-summary: githubにコミットしたらPC名出ちゃったときの話。
+summary: githubにコミットしたらOSのユーザ名が出ちゃったときの話。
 
 ---
-GitのAuthor, Comitterの設定を初期設定のまま使うと、PC名になってしまう。
-（そのため、意図せずAuthorが本名でコミットされたりする。)
-ここでは後からAuthorやComitterを変える方法を記す。
+GitのAuthor, Comitterの設定を初期設定のまま使うと、OSのユーザ名になってしまう。 （そのため、意図せずAuthorが本名でコミットされたりする。) ここでは後からAuthorやComitterを変える方法を記す。
 
 ## このページで分かること
 
