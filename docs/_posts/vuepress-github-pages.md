@@ -3,8 +3,8 @@ tags:
 - vuepress
 - github pages
 title: vuepressで作った静的サイトをGithub pagesで公開するまで
-date: 2019-06-14 15:00:00 +0000
-featuredimg: "/assets/img/vuepress-github-pages.png"
+date: 2019-06-14T15:00:00.000+00:00
+featuredimg: ''
 summary: vuepress + github pages。自動デプロイについては別記事。
 
 ---
