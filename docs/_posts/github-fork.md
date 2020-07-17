@@ -7,8 +7,6 @@ featuredimg: "/assets/img/tech-lunch-box-notext.png"
 summary: 自分のリポジトリを複製して新しいリポジトリを作る方法
 
 ---
-# Githubで自分のリポジトリをforkする
-
 ## このページで分かること
 
 * 自分のリポジトリを複製して新しいリポジトリを作る方法

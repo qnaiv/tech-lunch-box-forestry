@@ -8,8 +8,6 @@ featuredimg: "/assets/img/tech-lunch-box-notext.png"
 summary: vuepress + github pages。自動デプロイについては別記事。
 
 ---
-# vuepressで作った静的サイトをGithub pagesで公開するまで
-
 ## このページで分かること
 
 * 1からvuepressの導入する方法・基本的な使い方
