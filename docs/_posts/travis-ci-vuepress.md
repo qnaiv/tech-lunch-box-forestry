@@ -6,7 +6,7 @@ tags:
 featuredimg: "/assets/img/vuepress-travisci.png"
 title: Travis CIでVuepressの公開を自動化する
 date: 2019-07-21 15:00:00 +0000
-summary: ''
+summary: 静的サイトジェネレータ(vuepress)の成果物を自動デプロイする。
 
 ---
 ## このページでわかること
