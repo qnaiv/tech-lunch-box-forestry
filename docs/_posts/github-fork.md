@@ -3,7 +3,7 @@ tags:
 - github
 title: Githubで自分のリポジトリをforkする
 date: 2019-06-14T16:00:00.000+00:00
-featuredimg: "/assets/img/tech-lunch-box-notext.png"
+featuredimg: "/assets/img/20200716-lunchbox-feature-image.png"
 summary: 自分のリポジトリを複製して新しいリポジトリを作る方法
 
 ---
