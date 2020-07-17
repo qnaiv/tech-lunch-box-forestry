@@ -1,7 +1,7 @@
 ---
 tags:
 - jwt
-featuredimg: "/assets/img/20200716-lunchbox-feature-image.png"
+featuredimg: "/assets/img/jwt.png"
 title: JWT についてまとめ
 date: 2019-09-07 15:00:00 +0000
 summary: JWTについてわかったことメモ
