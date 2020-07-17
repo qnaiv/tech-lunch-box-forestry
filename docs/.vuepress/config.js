@@ -9,6 +9,26 @@ module.exports = {
       lang: 'ja'
     }
   },
+  plugins: [
+    [
+      'vuepress-plugin-container',
+      {
+        type: 'tip',
+        defaultTitle: {
+          '/': 'TIP',
+        },
+      },
+    ],
+    [
+      'vuepress-plugin-container',
+      {
+        type: 'warning',
+        defaultTitle: {
+          '/': 'WARNING',
+        },
+      },
+    ],
+  ],
   title: 'tech lunch box',
   // base: '/tech-lunch-box-forestry/',
   dest: 'public',

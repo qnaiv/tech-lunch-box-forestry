@@ -26,10 +26,10 @@
     "components"
   ],
   "scripts": {
-    "docs:build": "vuepress build docs --temp docs/.temp",
-    "docs:dev": "vuepress dev docs --temp docs/.temp",
     "build": "vuepress build docs",
     "dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs --temp docs/.temp",
+    "docs:dev": "vuepress dev docs --temp docs/.temp",
     "lint": "eslint . --ext .js,.vue",
     "prepublishOnly": "npm run test && npm run docs:build && conventional-changelog -p angular -r 2 -i CHANGELOG.md -s",
     "start": "yarn dev",
@@ -75,7 +75,8 @@
     "jest": "^24.9.0",
     "lint-staged": "^9.5.0",
     "sort-package-json": "^1.31.0",
-    "vuepress": "^1.2.0"
+    "vuepress": "^1.2.0",
+    "vuepress-plugin-container": "^2.1.4"
   },
   "peerDependencies": {
     "vuepress": "^1.0.0"

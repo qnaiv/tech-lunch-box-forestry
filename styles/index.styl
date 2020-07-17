@@ -13,7 +13,7 @@ $green = #03a87c
 $color_1 = rgba(0, 0, 0, 0.54)
 $color_2 = rgba(0, 0, 0, 0.44)
 $color_3 = rgba(0, 0, 0, 0.8)
-$primary_font_family = 'Source Sans Pro'
+$primary_font_family = 'M PLUS Rounded'
 $second_font_family = 'Merriweather'
 body
   font-family: $primary_font_family
@@ -21,7 +21,7 @@ body
   color: $color_3
   background: #fff
 .wrapmain
-  min-height:600px
+  min-height:100vh
 .font-secondary
    font-family: $second_font_family
 img
@@ -165,7 +165,7 @@ nav
   &:last-child:after
     content: ''
 .heading
-  font-size: 22px
+  font-size: 20px
   font-weight: 700
   line-height: 1.26
   cursor: pointer
@@ -196,10 +196,14 @@ nav
   h1
     font-weight:700
   h1, h2, h3, h4, h5, h6
-    font-weight:600
+    // font-weight:600
     font-family:$primary_font_family
     margin-top:1.5em
     margin-bottom:.5em
+  h2
+    font-size: 1.75em
+  h3
+    font-size: 1.5em
 .featuredimg
   border-radius:0px
 .mt-40
@@ -233,3 +237,22 @@ code
   .logofooter
     width: 50px
 
+.custom-block.tip {
+    background-color: #f3f5f7;
+    border-color: #42b983;
+}
+.custom-block.warning {
+    background-color: #ffffed;
+    border-color: #ffd34f;
+}
+.custom-block .custom-block-title {
+    font-weight: 600;
+    margin-bottom: -1rem;
+    margin-top: 1rem !important;
+}
+.custom-block.danger, .custom-block.tip, .custom-block.warning {
+    padding: .1rem 1.5rem;
+    border-left-width: .5rem;
+    border-left-style: solid;
+    margin: 1rem 0;
+}
