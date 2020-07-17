@@ -241,18 +241,23 @@ code
     background-color: #f3f5f7;
     border-color: #42b983;
 }
-.custom-block.warning {
-    background-color: #ffffed;
-    border-color: #ffd34f;
-}
-.custom-block .custom-block-title {
-    font-weight: 600;
-    margin-bottom: -1rem;
-    margin-top: 1rem !important;
-}
-.custom-block.danger, .custom-block.tip, .custom-block.warning {
+.custom-block
+  &.danger, &.tip, &.warning
     padding: .1rem 1.5rem;
     border-left-width: .5rem;
     border-left-style: solid;
     margin: 1rem 0;
-}
+  &.warning
+    background-color: #ffffed
+    border-color: #ffd34f
+    .custom-block-title
+      color: #ffd34f
+  &.danger
+    background-color: #ffe6e6
+    border-color: #e97373
+    .custom-block-title
+      color: #e97373
+  .custom-block-title
+    font-weight: 600;
+    margin-bottom: -1rem;
+    margin-top: 1rem !important;

@@ -28,6 +28,15 @@ module.exports = {
         },
       },
     ],
+    [
+      'vuepress-plugin-container',
+      {
+        type: 'danger',
+        defaultTitle: {
+          '/': 'DANGER',
+        },
+      },
+    ],
   ],
   title: 'tech lunch box',
   // base: '/tech-lunch-box-forestry/',
