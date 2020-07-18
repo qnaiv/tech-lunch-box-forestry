@@ -29,6 +29,7 @@ pages:
 - docs/_posts/spring-boot.md
 - docs/_posts/travis-ci-vuepress.md
 - docs/_posts/vimium-chrome.md
+- docs/_posts/vps.md
 - docs/_posts/vscode-cascadia-code.md
 - docs/_posts/vscode-ssh.md
 - docs/_posts/vscode-unbound-classpath-container.md
