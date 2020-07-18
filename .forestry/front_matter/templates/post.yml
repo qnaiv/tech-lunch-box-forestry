@@ -22,6 +22,7 @@ fields:
   name: summary
   label: summary
 pages:
+- docs/_posts/di.md
 - docs/_posts/docker-compose-centos8.md
 - docs/_posts/git-author-commiter.md
 - docs/_posts/git-push-github.md
