@@ -1,5 +1,13 @@
 <template>
   <div id>
+    <!-- <cloud
+      style="border:1px solid gray"
+      :data="tagCount"
+      :font-size-mapper="fontSizeMapper"
+      :rotate="rotate"
+      :width="300"
+      :height="300"
+    /> -->
     <div
       class="card-panel-content row"
       itemscope
@@ -32,14 +40,15 @@
                   v-for="tag in resolvePostTags(page.frontmatter.tags)"
                   :key="tag"
                   :to="'/tag/' + tag"
-                  >{{ tag }}</router-link
                 >
+                  {{ tag }}
+                </router-link>
               </div>
             </div>
             <h2 class="heading" itemprop="name headline">
-              <NavLink :link="page.path" class="heading">
-                {{ page.title }}
-              </NavLink>
+              <NavLink :link="page.path" class="heading">{{
+                page.title
+              }}</NavLink>
             </h2>
             <p itemprop="description">
               {{ page.frontmatter.summary || page.summary }}
@@ -89,7 +98,6 @@
 
 <script>
 /* global THEME_BLOG_PAGINATION_COMPONENT */
-
 import Vue from 'vue'
 import dayjs from 'dayjs'
 import {
@@ -98,12 +106,6 @@ import {
 } from '@vuepress/plugin-blog/lib/client/components'
 
 export default {
-  data() {
-    return {
-      paginationComponent: null,
-    }
-  },
-
   computed: {
     pages() {
       return this.$pagination.pages
@@ -112,6 +114,7 @@ export default {
 
   created() {
     this.paginationComponent = this.getPaginationComponent()
+    // this.tagCount = this.countTags()
   },
 
   methods: {
@@ -137,6 +140,30 @@ export default {
     resolvePostTags(tags) {
       if (!tags || Array.isArray(tags)) return tags
       return [tags]
+    },
+
+    countTags() {
+      let posts = this.$site.pages
+      let tags = posts.reduce((accum, curr) => {
+        let tags = curr.frontmatter.tags
+        if (tags == null) return accum
+        return accum.concat(tags.filter(tag => tag != null && tag != undefined))
+      }, [])
+      console.log(tags)
+
+      let tagCount = []
+      for (let key of tags) {
+        if (tagCount.some(tag => tag.text == key)) {
+          continue
+        }
+        tagCount.push({
+          text: key,
+          value: tags.filter(tag => tag == key).length,
+        })
+      }
+      console.log(tagCount)
+
+      return tagCount
     },
   },
 }

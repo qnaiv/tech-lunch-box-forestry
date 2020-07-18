@@ -10,8 +10,12 @@ module.exports = themeConfig => {
     logo: '/assets/img/lunchbox-logo.png',
     nav: themeConfig.nav || [
       {
-        text: 'Blog',
+        text: 'Home',
         link: '/',
+      },
+      {
+        text: 'About',
+        link: '/about',
       },
       {
         text: 'Tags',

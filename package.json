@@ -60,6 +60,7 @@
     "dayjs": "^1.8.19",
     "lodash": "^4.17.15",
     "remove-markdown": "^0.3.0",
+    "vue-d3-cloud": "^0.2.0",
     "vue-feather-icons": "^5.0.0",
     "vuepress-plugin-smooth-scroll": "^0.0.9"
   },
