@@ -2,7 +2,7 @@
 tags:
 - docker
 - docker-compose
-- centos 8
+- linux
 featuredimg: "/assets/img/docker.png"
 title: docker-compose を CentOS8 に導入するまで
 date: 2019-10-30 00:00:00 +0900
