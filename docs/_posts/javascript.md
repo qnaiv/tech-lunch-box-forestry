@@ -57,7 +57,7 @@ let userName = name || 'guest'
 // lastNameがあればそれを代入。なければfirstNameを代入。firstNameもなければ'guest'を代入。
 let userName = lastName || (firstName || 'guest')
 
-// 三項演算子でも同じようなことできる…けど読みづらいかも？
+// 三項演算子でも同じようなことできる…けど論理演算子のが読みやすい？
 let userName = name ? name : 'guest'
 let userName = lastName ? lastName : firstName ? firstName : 'guest
 ```
