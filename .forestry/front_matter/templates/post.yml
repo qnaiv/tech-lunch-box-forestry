@@ -28,6 +28,7 @@ pages:
 - docs/_posts/git-push-github.md
 - docs/_posts/github-fork.md
 - docs/_posts/jwt.md
+- docs/_posts/oracle.md
 - docs/_posts/pwa-webpush.md
 - docs/_posts/schema.graphql.md
 - docs/_posts/spring-boot.md
