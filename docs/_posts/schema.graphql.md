@@ -2,7 +2,6 @@
 tags:
 - graph ql
 - aws
-- aws appsync
 featuredimg: "/assets/img/graphql.png"
 title: schema.graphqlで使えるディレクティブについて
 date: 2020-04-14 00:00:00 +0900
