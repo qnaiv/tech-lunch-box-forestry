@@ -1,7 +1,7 @@
 ---
 tags:
 - javascript
-featuredimg: "/assets/img/20200716-lunchbox-feature-image.png"
+featuredimg: "/assets/img/javascript.png"
 title: Javascriptの論理演算子(&&,||)について知らなかったこと
 date: 2020-06-24 00:00:00 +0900
 summary: 論理演算子のトリッキーな使い方を知ったので
