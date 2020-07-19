@@ -2,8 +2,8 @@
 tags:
 - oracle 11g
 - sql
-featuredimg: "/assets/img/20200716-lunchbox-feature-image.png"
-title: Oracleの日付型についてまとめ
+featuredimg: "/assets/img/oracle-database-logo.png"
+title: Oracle DBの日付型についてまとめ
 date: 2020-04-15 00:00:00 +0900
 summary: oracleの日付型まとめ
 
