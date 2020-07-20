@@ -2,9 +2,9 @@
 tags:
 - vscode
 - java
-featuredimg: "/assets/img/20200716-lunchbox-feature-image.png"
+featuredimg: "/assets/img/vscode.png"
 title: VSCode で Unbound classpath container が出たときの対処法
-date: 2019-09-21 15:00:00 +0000
+date: 2019-09-21T15:00:00.000+00:00
 summary: vscodeでjavaうまく設定できなかったときの話
 
 ---

@@ -22,12 +22,21 @@ fields:
   name: summary
   label: summary
 pages:
+- docs/_posts/di.md
+- docs/_posts/docker-compose-centos8.md
 - docs/_posts/git-author-commiter.md
 - docs/_posts/git-push-github.md
 - docs/_posts/github-fork.md
+- docs/_posts/javascript.md
 - docs/_posts/jwt.md
+- docs/_posts/oracle.md
+- docs/_posts/pwa-webpush.md
+- docs/_posts/schema.graphql.md
 - docs/_posts/spring-boot.md
 - docs/_posts/travis-ci-vuepress.md
 - docs/_posts/vimium-chrome.md
+- docs/_posts/vps.md
+- docs/_posts/vscode-cascadia-code.md
+- docs/_posts/vscode-ssh.md
 - docs/_posts/vscode-unbound-classpath-container.md
 - docs/_posts/vuepress-github-pages.md
