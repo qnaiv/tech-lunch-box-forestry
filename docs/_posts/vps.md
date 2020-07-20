@@ -2,7 +2,6 @@
 tags:
 - linux
 - vps
-- conoha
 featuredimg: "/assets/img/conoha.png"
 title: VPS をレンタルしたときの初期設定
 date: 2019-10-27 00:00:00 +0900
