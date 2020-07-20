@@ -58,6 +58,7 @@
     "@vuepress/plugin-search": "1.5.0",
     "bootstrap-4-stylus": "^1.0.7",
     "dayjs": "^1.8.19",
+    "github-calendar": "^2.2.1",
     "lodash": "^4.17.15",
     "remove-markdown": "^0.3.0",
     "vue-d3-cloud": "^0.2.0",
