@@ -2,7 +2,6 @@
 tags:
 - firebase
 - pwa
-- push api
 featuredimg: "/assets/img/fcm.png"
 title: PWA の WebPush 機能を試した
 date: 2020-02-03 00:00:00 +0900
