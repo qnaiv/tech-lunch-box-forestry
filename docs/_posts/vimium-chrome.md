@@ -1,10 +1,9 @@
 ---
 tags:
-- vimium
 - chrome extension
 featuredimg: "/assets/img/vimium.png"
 title: Vimium で Chrome をキーボードオンリーで操作する
-date: 2019-09-15 00:00:00 +0900
+date: 2019-09-15T00:00:00.000+09:00
 summary: 超便利なChrome拡張「vimium」の紹介
 
 ---
