@@ -17,12 +17,17 @@
     <p>
       <small class="text-muted">Front-end / Back-end engineer</small>
     </p>
-    <div class="calendar">
-      <!-- Loading stuff -->
-      Loading the data just for you.
+
+    <div class="card p-3 mt-5 text-left">
+      <span class="text-muted">Github calendar</span>
+      <div class="calendar">
+        <!-- Loading stuff -->
+        Loading the data just for you.
+      </div>
     </div>
 
-    <div class="card mt-5">
+    <div class="card p-3 mt-5 text-left">
+      <span class="text-muted">Twitter</span>
       <a
         class="twitter-timeline"
         data-height="400"
@@ -60,6 +65,13 @@ export default {
   margin-top: 20px !important;
   min-height: auto !important;
   border: none !important;
+}
+.graph-before-activity-overview {
+  border: none !important;
+}
+.contrib-footer {
+  height: auto !important;
+  width: auto !important;
 }
 .contrib-column {
   /* border: none !important; */
