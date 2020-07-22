@@ -18,16 +18,16 @@
       <small class="text-muted">Front-end / Back-end engineer</small>
     </p>
 
-    <div class="card p-3 mt-5 text-left">
-      <span class="text-muted">Github calendar</span>
+    <div class="card p-0 mt-3 text-left">
+      <span class="mt-3 ml-3 h6 text-muted">Github calendar</span>
       <div class="calendar">
         <!-- Loading stuff -->
         Loading the data just for you.
       </div>
     </div>
 
-    <div class="card p-3 mt-5 text-left">
-      <span class="text-muted">Twitter</span>
+    <div class="card p-3 mt-3 text-left">
+      <span class="h6 text-muted">Twitter</span>
       <a
         class="twitter-timeline"
         data-height="400"
