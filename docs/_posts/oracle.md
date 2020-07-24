@@ -90,13 +90,25 @@ SELECT sysdate - 1/24 FROM DUAL;
 
 日付同士を引き算したり、日付から日数や時間を引いたり。
 
-    SELECT to_date('20200725', 'yyyymmdd') - to_date('20200724', 'yyyymmdd') FROM DUAL; // result: 1
-    SELECT to_date('20200725', 'yyyymmdd') - 1 FROM DUAL; // result: 24-JUL-20
-    SELECT to_char(to_date('2020-07-25 09:00', 'yyyy-MM-dd HH24:mi') - 1/24, 'yyyy-MM-dd HH24:mi') FROM DUAL; // 2020-07-25 08:00
+    SELECT to_date('20200725', 'yyyymmdd') - to_date('20200724', 'yyyymmdd') FROM DUAL;
+    // result: 1
+    
+    SELECT to_date('20200725', 'yyyymmdd') - 1 FROM DUAL;
+    // result: 24-JUL-20
+    
+    SELECT to_char(to_date('2020-07-25 09:00', 'yyyy-MM-dd HH24:mi') - 1/24, 'yyyy-MM-dd HH24:mi') FROM DUAL;
+    // result: 2020-07-25 08:00
 
 ## 日付型の比較
 
-    SELECT 1 FROM DUAL WHERE to_date('2020-07-25 09:00', 'yyyy-MM-dd HH24:mi') > to_date('2020-07-25 08:00', 'yyyy-MM-dd HH24:mi'); // result: 1
-    SELECT 1 FROM DUAL WHERE to_date('2020-07-25 09:00', 'yyyy-MM-dd HH24:mi') < to_date('2020-07-25 08:00', 'yyyy-MM-dd HH24:mi'); // no result;
-    SELECT 1 FROM DUAL WHERE '20207-25 09:00' > '2020-07-25 08:00'; // result: 1
-    SELECT 1 FROM DUAL WHERE '20207-25 09:00' < '2020-07-25 08:00'; // no result;
+    SELECT 1 FROM DUAL WHERE to_date('2020-07-25 09:00', 'yyyy-MM-dd HH24:mi') > to_date('2020-07-25 08:00', 'yyyy-MM-dd HH24:mi');
+    // result: 1
+    
+    SELECT 1 FROM DUAL WHERE to_date('2020-07-25 09:00', 'yyyy-MM-dd HH24:mi') < to_date('2020-07-25 08:00', 'yyyy-MM-dd HH24:mi');
+    // no result;
+    
+    SELECT 1 FROM DUAL WHERE '20207-25 09:00' > '2020-07-25 08:00';
+    // result: 1
+    
+    SELECT 1 FROM DUAL WHERE '20207-25 09:00' < '2020-07-25 08:00'; 
+    // no result;
