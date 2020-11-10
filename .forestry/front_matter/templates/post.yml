@@ -29,6 +29,7 @@ pages:
 - docs/_posts/github-fork.md
 - docs/_posts/gridsome-markdown.md
 - docs/_posts/javascript.md
+- docs/_posts/js.md
 - docs/_posts/jwt.md
 - docs/_posts/oracle.md
 - docs/_posts/pwa-webpush.md
