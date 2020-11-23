@@ -11,6 +11,12 @@ module.exports = {
   },
   plugins: [
     [
+      '@vuepress/google-analytics',
+      {
+        'ga': 'UA-146509751-1' // UA-00000000-0
+      }
+    ],
+    [
       'vuepress-plugin-container',
       {
         type: 'tip',

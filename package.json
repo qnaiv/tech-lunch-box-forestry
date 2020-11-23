@@ -66,6 +66,7 @@
     "vuepress-plugin-smooth-scroll": "^0.0.9"
   },
   "devDependencies": {
+    "@vuepress/plugin-google-analytics": "^1.7.1",
     "babel-eslint": "^10.0.3",
     "conventional-changelog-cli": "^2.0.1",
     "eslint": "^6.8.0",
