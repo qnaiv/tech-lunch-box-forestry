@@ -1,6 +1,7 @@
 ---
 tags:
-- VSCode
+- vscode
+- docker
 featuredimg: "/assets/img/20200716-lunchbox-feature-image.png"
 title: VSCode Remote Containerで開発環境をサクッと構築する
 date: 2020-11-22 00:00:00 +0900
