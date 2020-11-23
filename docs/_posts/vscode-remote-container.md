@@ -75,4 +75,12 @@ Vueには便利な[公式cli](https://v3.vuejs.org/guide/installation.html#cli)�
    ![](/assets/img/screenshot-2020-11-23-at-21-06-51.png)
 3. ターミナルで以下のように入力し、Vue cliがグローバルインストールされている事を確認する。
 
-       
+       $ vue -V
+       @vue/cli 4.5.9
+
+### Vue拡張機能が初回起動時にインストールされるようにする
+
+VSCodeには、Vuejs開発に便利な[Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)という拡張機能がある。  
+なのでこれをコンテナの初回起動時に自動インストールされるようにしてみる。
+
+//WIP//
