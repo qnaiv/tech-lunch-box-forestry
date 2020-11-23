@@ -17,7 +17,7 @@ Dockerの機能を活用して、コンテナ内で作業ができる。
 
 * ローカルを汚さずに開発環境を整えられる。
 * 環境構築をコード化できる。
-* プロジェクトごとに、必要最低限なVSCode拡張機能を使えるようになる。
+* プロジェクトごとにVSCode拡張機能を使い分けられるようになる。
 
 ## クイックスタート
 
@@ -83,4 +83,30 @@ Vueには便利な[公式cli](https://v3.vuejs.org/guide/installation.html#cli)�
 VSCodeには、Vuejs開発に便利な[Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur)という拡張機能がある。  
 なのでこれをコンテナの初回起動時に自動インストールされるようにしてみる。
 
-//WIP//
+1. 拡張機能ペインを開き、`Vetur`と検索する。
+2. Veturを右クリックし、`Add to devcontainer.json`をクリックする。
+
+   ![](/assets/img/screenshot-2020-11-23-at-22-47-54.png)
+3. `devcontainer.json`を開き、VeturのIDが追加されている事を確認する。
+
+       "extensions": [
+       		"dbaeumer.vscode-eslint",
+       		"octref.vetur"
+       	],
+4. コンテナをリビルドする。  
+   ![](/assets/img/screenshot-2020-11-23-at-21-06-51.png)
+5. `DEV CONTAINER... - インストール済み`のところにVeturが追加された。
+
+   ![](/assets/img/screenshot-2020-11-23-at-22-55-14.png)
+
+## おわりに
+
+今まではローカル環境に全ての拡張機能を入れていたので、「Vue開発してる時はJava拡張機能が邪魔で、Java開発する時にはVue拡張機能が邪魔」みたいな事になっていた。
+
+これが解決出来るだけでもめちゃくちゃ有り難い。
+
+チームでエディタの設定なども同時に共有出来るのもすごく捗りそうだなと思った。
+
+## 今回の成果物
+
+[https://github.com/qnaiv/remote-container-quickstart](https://github.com/qnaiv/remote-container-quickstart "https://github.com/qnaiv/remote-container-quickstart")
