@@ -1,7 +1,7 @@
 ---
 tags:
 - javascript
-featuredimg: "/assets/img/20200716-lunchbox-feature-image.png"
+featuredimg: "/assets/img/javascript.png"
 title: jsの変数の中身をクリップボードにコピーする
 date: 2020-11-10T00:00:00.000+09:00
 summary: chromeの開発者ツールでjsの変数の中身をコピーする方法
