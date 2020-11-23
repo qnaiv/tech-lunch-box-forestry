@@ -39,6 +39,7 @@ pages:
 - docs/_posts/vimium-chrome.md
 - docs/_posts/vps.md
 - docs/_posts/vscode-cascadia-code.md
+- docs/_posts/vscode-remote-container.md
 - docs/_posts/vscode-ssh.md
 - docs/_posts/vscode-unbound-classpath-container.md
 - docs/_posts/vuepress-github-pages.md
