@@ -41,7 +41,7 @@ $ docker --help
 $ docker run -d --name ftpd_server -p 21:21 -p 30000-30009:30000-30009 -e "PUBLICHOST=[グローバルIP]" stilliard/pure-ftpd:hardened
 ```
 
-::: warning
+::: tip
 ポイントは`"PUBLICHOST=[グローバルIP]"`の部分。  
 公式ドキュメントや検索して出てくる資料では、`"PUBLICHOST=localhost"`と書いてあるが、外部から見れるようにする場合、グローバルIPを指定してdockerイメージを起動する必要があった。
 :::
