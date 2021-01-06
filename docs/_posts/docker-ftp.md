@@ -3,7 +3,7 @@ tags:
 - docker
 featuredimg: "/assets/img/docker.png"
 title: Dockerで速攻でFTPサーバを立てて外部から見れるようにするまで
-date: 2021-01-06 00:00:00 +0900
+date: 2021-01-06T00:00:00.000+09:00
 summary: とりあえずサクッとFTPサーバを立てる
 
 ---
@@ -41,8 +41,10 @@ $ docker --help
 $ docker run -d --name ftpd_server -p 21:21 -p 30000-30009:30000-30009 -e "PUBLICHOST=[グローバルIP]" stilliard/pure-ftpd:hardened
 ```
 
-* ポイントは`"PUBLICHOST=[グローバルIP]"`の部分。  
-  公式ドキュメントや検索して出てくる資料では、`"PUBLICHOST=localhost"`と書いてあるが、外部から見れるようにする場合、グローバルIPを指定してdockerイメージを起動する必要があった。
+::: warning
+ポイントは`"PUBLICHOST=[グローバルIP]"`の部分。  
+公式ドキュメントや検索して出てくる資料では、`"PUBLICHOST=localhost"`と書いてあるが、外部から見れるようにする場合、グローバルIPを指定してdockerイメージを起動する必要があった。
+:::
 
 # FTPユーザ作成
 
