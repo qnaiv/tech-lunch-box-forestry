@@ -3,11 +3,11 @@ tags:
 - architecture
 featuredimg: "/assets/img/20200716-lunchbox-feature-image.png"
 title: DI(依存性の注入)について
-date: 2020-04-10 00:00:00 +0900
+date: 2020-04-10T00:00:00.000+09:00
 summary: DIについての解説
 
 ---
-今や様々なアプリケーションフレームワークで用いられているDI(Dependency Injection)と言う概念。 意外と意識せず使っている人が多いので、まとめてみる。
+様々なアプリケーションフレームワークで用いられているDI(Dependency Injection)についてまとめてみる。
 
 ## DIとは
 
