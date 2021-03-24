@@ -1,0 +1,159 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "tech lunch box",
+    "home_page_url": "https://lunchbox.qnv.pw/",
+    "feed_url": "https://lunchbox.qnv.pw/feed.json",
+    "items": [
+        {
+            "id": "https://lunchbox.qnv.pw/2020/04/09/di/",
+            "url": "https://lunchbox.qnv.pw/2020/04/09/di/",
+            "title": "DI(依存性の注入)について",
+            "summary": "DIについての解説",
+            "date_modified": "2020-04-09T15:00:00.000Z"
+        },
+        {
+            "id": "https://lunchbox.qnv.pw/2019/10/29/docker-compose-centos8/",
+            "url": "https://lunchbox.qnv.pw/2019/10/29/docker-compose-centos8/",
+            "title": "docker-compose を CentOS8 に導入するまで",
+            "summary": "Centos環境にdocker-composeを導入して使い始めるまで。",
+            "date_modified": "2019-10-29T15:00:00.000Z"
+        },
+        {
+            "id": "https://lunchbox.qnv.pw/2021/01/05/docker-ftp/",
+            "url": "https://lunchbox.qnv.pw/2021/01/05/docker-ftp/",
+            "title": "Dockerで速攻でFTPサーバを立てて外部から見れるようにするまで",
+            "summary": "とりあえずサクッとFTPサーバを立てる",
+            "date_modified": "2021-01-05T15:00:00.000Z"
+        },
+        {
+            "id": "https://lunchbox.qnv.pw/2019/06/17/git-author-commiter/",
+            "url": "https://lunchbox.qnv.pw/2019/06/17/git-author-commiter/",
+            "title": "gitで過去コミットのauthorとcommiterを変更する",
+            "summary": "githubにコミットしたらOSのユーザ名が出ちゃったときの話。",
+            "date_modified": "2019-06-17T15:00:00.000Z"
+        },
+        {
+            "id": "https://lunchbox.qnv.pw/2019/09/15/git-push-github/",
+            "url": "https://lunchbox.qnv.pw/2019/09/15/git-push-github/",
+            "title": "git push 時のコミッター名が Github アカウントと一致しない問題",
+            "summary": "Github にgit pushする際、Github のアカウント名義でコミットするのに手間取ったのでメモ。",
+            "image": "https://lunchbox.qnv.pw/assets/img/change-git-committer1.png",
+            "date_modified": "2019-09-15T15:00:00.000Z"
+        },
+        {
+            "id": "https://lunchbox.qnv.pw/2019/06/14/github-fork/",
+            "url": "https://lunchbox.qnv.pw/2019/06/14/github-fork/",
+            "title": "Githubで自分のリポジトリを複製する",
+            "summary": "自分のリポジトリを複製して新しいリポジトリを作る方法",
+            "image": "https://lunchbox.qnv.pw/assets/img/fork-own-repo-1.png",
+            "date_modified": "2019-06-14T16:00:00.000Z"
+        },
+        {
+            "id": "https://lunchbox.qnv.pw/2020/07/31/gridsome-markdown/",
+            "url": "https://lunchbox.qnv.pw/2020/07/31/gridsome-markdown/",
+            "title": "gridsomeで日本語ファイル名のmarkdownを認識できるようにする",
+            "summary": "gridsomeで日本語ファイル名のmdをスキャンさせたらpathがおかしくなった",
+            "image": "https://lunchbox.qnv.pw/assets/img/screenshot-2020-08-01-at-13-48-08-display-1.png",
+            "date_modified": "2020-07-31T15:00:00.000Z"
+        },
+        {
+            "id": "https://lunchbox.qnv.pw/2020/06/23/javascript/",
+            "url": "https://lunchbox.qnv.pw/2020/06/23/javascript/",
+            "title": "Javascriptの論理演算子(&&,||)について知らなかったこと",
+            "summary": "論理演算子のトリッキーな使い方を知ったので",
+            "date_modified": "2020-06-23T15:00:00.000Z"
+        },
+        {
+            "id": "https://lunchbox.qnv.pw/2020/11/09/js/",
+            "url": "https://lunchbox.qnv.pw/2020/11/09/js/",
+            "title": "jsの変数の中身をクリップボードにコピーする",
+            "summary": "chromeの開発者ツールでjsの変数の中身をコピーする方法",
+            "image": "https://lunchbox.qnv.pw/assets/img/screenshot-2020-11-10-at-23-00-35.png",
+            "date_modified": "2020-11-09T15:00:00.000Z"
+        },
+        {
+            "id": "https://lunchbox.qnv.pw/2019/09/07/jwt/",
+            "url": "https://lunchbox.qnv.pw/2019/09/07/jwt/",
+            "title": "JWT についてまとめ",
+            "summary": "JWTについてわかったことメモ",
+            "image": "https://lunchbox.qnv.pw/assets/img/jwt-introduction-1-97138c8a-beae-4774-ac49-d038425739e5.png",
+            "date_modified": "2019-09-07T15:00:00.000Z"
+        },
+        {
+            "id": "https://lunchbox.qnv.pw/2020/04/14/oracle/",
+            "url": "https://lunchbox.qnv.pw/2020/04/14/oracle/",
+            "title": "Oracle DBの日付型についてまとめ",
+            "summary": "oracleの日付型まとめ",
+            "date_modified": "2020-04-14T15:00:00.000Z"
+        },
+        {
+            "id": "https://lunchbox.qnv.pw/2020/02/02/pwa-webpush/",
+            "url": "https://lunchbox.qnv.pw/2020/02/02/pwa-webpush/",
+            "title": "PWA の WebPush 機能を試した",
+            "summary": "firebaseでweb push飛ばすハンズオン",
+            "image": "https://lunchbox.qnv.pw/assets/img/web-push-hands-on-1.png",
+            "date_modified": "2020-02-02T15:00:00.000Z"
+        },
+        {
+            "id": "https://lunchbox.qnv.pw/2020/04/13/schema-graphql/",
+            "url": "https://lunchbox.qnv.pw/2020/04/13/schema-graphql/",
+            "title": "schema.graphqlで使えるディレクティブについて",
+            "summary": "aws amplifyでgraphQLを初めて触ったときのメモ",
+            "date_modified": "2020-04-13T15:00:00.000Z"
+        },
+        {
+            "id": "https://lunchbox.qnv.pw/2019/07/11/spring-boot/",
+            "url": "https://lunchbox.qnv.pw/2019/07/11/spring-boot/",
+            "title": "Spring bootでイベントハンドリングを実装する",
+            "summary": "spring bootの@EventListnerについて。",
+            "date_modified": "2019-07-11T15:00:00.000Z"
+        },
+        {
+            "id": "https://lunchbox.qnv.pw/2019/07/21/travis-ci-vuepress/",
+            "url": "https://lunchbox.qnv.pw/2019/07/21/travis-ci-vuepress/",
+            "title": "Travis CIでVuepressの公開を自動化する",
+            "summary": "静的サイトジェネレータ(vuepress)の成果物を自動デプロイする。",
+            "image": "https://lunchbox.qnv.pw/assets/img/vuepress-automate-deployment-with-travis-1.png",
+            "date_modified": "2019-07-21T15:00:00.000Z"
+        },
+        {
+            "id": "https://lunchbox.qnv.pw/2019/09/14/vimium-chrome/",
+            "url": "https://lunchbox.qnv.pw/2019/09/14/vimium-chrome/",
+            "title": "Vimium で Chrome をキーボードオンリーで操作する",
+            "summary": "超便利なChrome拡張「vimium」の紹介",
+            "image": "https://lunchbox.qnv.pw/assets/img/vimium_1.png",
+            "date_modified": "2019-09-14T15:00:00.000Z"
+        },
+        {
+            "id": "https://lunchbox.qnv.pw/2019/10/26/vps/",
+            "url": "https://lunchbox.qnv.pw/2019/10/26/vps/",
+            "title": "VPS をレンタルしたときの初期設定",
+            "summary": "conoha VPSをレンタルしたときの初期設定をメモ。",
+            "date_modified": "2019-10-26T15:00:00.000Z"
+        },
+        {
+            "id": "https://lunchbox.qnv.pw/2019/09/22/vscode-cascadia-code/",
+            "url": "https://lunchbox.qnv.pw/2019/09/22/vscode-cascadia-code/",
+            "title": "VSCode で Cascadia code を利用する",
+            "summary": "ターミナルやコードエディタに最適なフォントをVSCodeに導入。",
+            "image": "https://lunchbox.qnv.pw/assets/img/cascadia-code-vscode-1.png",
+            "date_modified": "2019-09-22T15:00:00.000Z"
+        },
+        {
+            "id": "https://lunchbox.qnv.pw/2020/11/21/vscode-remote-container/",
+            "url": "https://lunchbox.qnv.pw/2020/11/21/vscode-remote-container/",
+            "title": "VSCode Remote Containerで開発環境をサクッと構築する",
+            "summary": "Remote Containerの使い方",
+            "image": "https://lunchbox.qnv.pw/assets/img/screenshot-2020-11-23-at-19-37-16.png",
+            "date_modified": "2020-11-21T15:00:00.000Z"
+        },
+        {
+            "id": "https://lunchbox.qnv.pw/2019/10/25/vscode-ssh/",
+            "url": "https://lunchbox.qnv.pw/2019/10/25/vscode-ssh/",
+            "title": "VSCode で SSH 接続する",
+            "summary": "VSCodeでSSH接続する方法について",
+            "image": "https://lunchbox.qnv.pw/assets/img/ssh-connection-with-vscode-1.png",
+            "date_modified": "2019-10-25T15:00:00.000Z"
+        }
+    ]
+}

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>tech lunch box</title>
+        <link>https://lunchbox.qnv.pw/</link>
+        <description></description>
+        <lastBuildDate>Wed, 24 Mar 2021 02:36:42 GMT</lastBuildDate>
+        <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+        <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
+        <atom:link href="https://lunchbox.qnv.pw/feed.atom" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[DI(依存性の注入)について]]></title>
+            <link>https://lunchbox.qnv.pw/2020/04/09/di/</link>
+            <guid>https://lunchbox.qnv.pw/2020/04/09/di/</guid>
+            <pubDate>Thu, 09 Apr 2020 15:00:00 GMT</pubDate>
+            <description><![CDATA[DIについての解説]]></description>
+        </item>
+        <item>
+            <title><![CDATA[docker-compose を CentOS8 に導入するまで]]></title>
+            <link>https://lunchbox.qnv.pw/2019/10/29/docker-compose-centos8/</link>
+            <guid>https://lunchbox.qnv.pw/2019/10/29/docker-compose-centos8/</guid>
+            <pubDate>Tue, 29 Oct 2019 15:00:00 GMT</pubDate>
+            <description><![CDATA[Centos環境にdocker-composeを導入して使い始めるまで。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Dockerで速攻でFTPサーバを立てて外部から見れるようにするまで]]></title>
+            <link>https://lunchbox.qnv.pw/2021/01/05/docker-ftp/</link>
+            <guid>https://lunchbox.qnv.pw/2021/01/05/docker-ftp/</guid>
+            <pubDate>Tue, 05 Jan 2021 15:00:00 GMT</pubDate>
+            <description><![CDATA[とりあえずサクッとFTPサーバを立てる]]></description>
+        </item>
+        <item>
+            <title><![CDATA[gitで過去コミットのauthorとcommiterを変更する]]></title>
+            <link>https://lunchbox.qnv.pw/2019/06/17/git-author-commiter/</link>
+            <guid>https://lunchbox.qnv.pw/2019/06/17/git-author-commiter/</guid>
+            <pubDate>Mon, 17 Jun 2019 15:00:00 GMT</pubDate>
+            <description><![CDATA[githubにコミットしたらOSのユーザ名が出ちゃったときの話。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[git push 時のコミッター名が Github アカウントと一致しない問題]]></title>
+            <link>https://lunchbox.qnv.pw/2019/09/15/git-push-github/</link>
+            <guid>https://lunchbox.qnv.pw/2019/09/15/git-push-github/</guid>
+            <pubDate>Sun, 15 Sep 2019 15:00:00 GMT</pubDate>
+            <description><![CDATA[Github にgit pushする際、Github のアカウント名義でコミットするのに手間取ったのでメモ。]]></description>
+            <enclosure url="https://lunchbox.qnv.pw/assets/img/change-git-committer1.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[Githubで自分のリポジトリを複製する]]></title>
+            <link>https://lunchbox.qnv.pw/2019/06/14/github-fork/</link>
+            <guid>https://lunchbox.qnv.pw/2019/06/14/github-fork/</guid>
+            <pubDate>Fri, 14 Jun 2019 16:00:00 GMT</pubDate>
+            <description><![CDATA[自分のリポジトリを複製して新しいリポジトリを作る方法]]></description>
+            <enclosure url="https://lunchbox.qnv.pw/assets/img/fork-own-repo-1.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[gridsomeで日本語ファイル名のmarkdownを認識できるようにする]]></title>
+            <link>https://lunchbox.qnv.pw/2020/07/31/gridsome-markdown/</link>
+            <guid>https://lunchbox.qnv.pw/2020/07/31/gridsome-markdown/</guid>
+            <pubDate>Fri, 31 Jul 2020 15:00:00 GMT</pubDate>
+            <description><![CDATA[gridsomeで日本語ファイル名のmdをスキャンさせたらpathがおかしくなった]]></description>
+            <enclosure url="https://lunchbox.qnv.pw/assets/img/screenshot-2020-08-01-at-13-48-08-display-1.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[Javascriptの論理演算子(&&,||)について知らなかったこと]]></title>
+            <link>https://lunchbox.qnv.pw/2020/06/23/javascript/</link>
+            <guid>https://lunchbox.qnv.pw/2020/06/23/javascript/</guid>
+            <pubDate>Tue, 23 Jun 2020 15:00:00 GMT</pubDate>
+            <description><![CDATA[論理演算子のトリッキーな使い方を知ったので]]></description>
+        </item>
+        <item>
+            <title><![CDATA[jsの変数の中身をクリップボードにコピーする]]></title>
+            <link>https://lunchbox.qnv.pw/2020/11/09/js/</link>
+            <guid>https://lunchbox.qnv.pw/2020/11/09/js/</guid>
+            <pubDate>Mon, 09 Nov 2020 15:00:00 GMT</pubDate>
+            <description><![CDATA[chromeの開発者ツールでjsの変数の中身をコピーする方法]]></description>
+            <enclosure url="https://lunchbox.qnv.pw/assets/img/screenshot-2020-11-10-at-23-00-35.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[JWT についてまとめ]]></title>
+            <link>https://lunchbox.qnv.pw/2019/09/07/jwt/</link>
+            <guid>https://lunchbox.qnv.pw/2019/09/07/jwt/</guid>
+            <pubDate>Sat, 07 Sep 2019 15:00:00 GMT</pubDate>
+            <description><![CDATA[JWTについてわかったことメモ]]></description>
+            <enclosure url="https://lunchbox.qnv.pw/assets/img/jwt-introduction-1-97138c8a-beae-4774-ac49-d038425739e5.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[Oracle DBの日付型についてまとめ]]></title>
+            <link>https://lunchbox.qnv.pw/2020/04/14/oracle/</link>
+            <guid>https://lunchbox.qnv.pw/2020/04/14/oracle/</guid>
+            <pubDate>Tue, 14 Apr 2020 15:00:00 GMT</pubDate>
+            <description><![CDATA[oracleの日付型まとめ]]></description>
+        </item>
+        <item>
+            <title><![CDATA[PWA の WebPush 機能を試した]]></title>
+            <link>https://lunchbox.qnv.pw/2020/02/02/pwa-webpush/</link>
+            <guid>https://lunchbox.qnv.pw/2020/02/02/pwa-webpush/</guid>
+            <pubDate>Sun, 02 Feb 2020 15:00:00 GMT</pubDate>
+            <description><![CDATA[firebaseでweb push飛ばすハンズオン]]></description>
+            <enclosure url="https://lunchbox.qnv.pw/assets/img/web-push-hands-on-1.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[schema.graphqlで使えるディレクティブについて]]></title>
+            <link>https://lunchbox.qnv.pw/2020/04/13/schema-graphql/</link>
+            <guid>https://lunchbox.qnv.pw/2020/04/13/schema-graphql/</guid>
+            <pubDate>Mon, 13 Apr 2020 15:00:00 GMT</pubDate>
+            <description><![CDATA[aws amplifyでgraphQLを初めて触ったときのメモ]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Spring bootでイベントハンドリングを実装する]]></title>
+            <link>https://lunchbox.qnv.pw/2019/07/11/spring-boot/</link>
+            <guid>https://lunchbox.qnv.pw/2019/07/11/spring-boot/</guid>
+            <pubDate>Thu, 11 Jul 2019 15:00:00 GMT</pubDate>
+            <description><![CDATA[spring bootの@EventListnerについて。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Travis CIでVuepressの公開を自動化する]]></title>
+            <link>https://lunchbox.qnv.pw/2019/07/21/travis-ci-vuepress/</link>
+            <guid>https://lunchbox.qnv.pw/2019/07/21/travis-ci-vuepress/</guid>
+            <pubDate>Sun, 21 Jul 2019 15:00:00 GMT</pubDate>
+            <description><![CDATA[静的サイトジェネレータ(vuepress)の成果物を自動デプロイする。]]></description>
+            <enclosure url="https://lunchbox.qnv.pw/assets/img/vuepress-automate-deployment-with-travis-1.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[Vimium で Chrome をキーボードオンリーで操作する]]></title>
+            <link>https://lunchbox.qnv.pw/2019/09/14/vimium-chrome/</link>
+            <guid>https://lunchbox.qnv.pw/2019/09/14/vimium-chrome/</guid>
+            <pubDate>Sat, 14 Sep 2019 15:00:00 GMT</pubDate>
+            <description><![CDATA[超便利なChrome拡張「vimium」の紹介]]></description>
+            <enclosure url="https://lunchbox.qnv.pw/assets/img/vimium_1.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[VPS をレンタルしたときの初期設定]]></title>
+            <link>https://lunchbox.qnv.pw/2019/10/26/vps/</link>
+            <guid>https://lunchbox.qnv.pw/2019/10/26/vps/</guid>
+            <pubDate>Sat, 26 Oct 2019 15:00:00 GMT</pubDate>
+            <description><![CDATA[conoha VPSをレンタルしたときの初期設定をメモ。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[VSCode で Cascadia code を利用する]]></title>
+            <link>https://lunchbox.qnv.pw/2019/09/22/vscode-cascadia-code/</link>
+            <guid>https://lunchbox.qnv.pw/2019/09/22/vscode-cascadia-code/</guid>
+            <pubDate>Sun, 22 Sep 2019 15:00:00 GMT</pubDate>
+            <description><![CDATA[ターミナルやコードエディタに最適なフォントをVSCodeに導入。]]></description>
+            <enclosure url="https://lunchbox.qnv.pw/assets/img/cascadia-code-vscode-1.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[VSCode Remote Containerで開発環境をサクッと構築する]]></title>
+            <link>https://lunchbox.qnv.pw/2020/11/21/vscode-remote-container/</link>
+            <guid>https://lunchbox.qnv.pw/2020/11/21/vscode-remote-container/</guid>
+            <pubDate>Sat, 21 Nov 2020 15:00:00 GMT</pubDate>
+            <description><![CDATA[Remote Containerの使い方]]></description>
+            <enclosure url="https://lunchbox.qnv.pw/assets/img/screenshot-2020-11-23-at-19-37-16.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[VSCode で SSH 接続する]]></title>
+            <link>https://lunchbox.qnv.pw/2019/10/25/vscode-ssh/</link>
+            <guid>https://lunchbox.qnv.pw/2019/10/25/vscode-ssh/</guid>
+            <pubDate>Fri, 25 Oct 2019 15:00:00 GMT</pubDate>
+            <description><![CDATA[VSCodeでSSH接続する方法について]]></description>
+            <enclosure url="https://lunchbox.qnv.pw/assets/img/ssh-connection-with-vscode-1.png">
+            </enclosure>
+        </item>
+    </channel>
+</rss>

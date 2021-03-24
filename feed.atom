@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://lunchbox.qnv.pw/</id>
+    <title>tech lunch box</title>
+    <updated>2021-03-24T02:36:42.711Z</updated>
+    <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
+    <link rel="alternate" href="https://lunchbox.qnv.pw/"/>
+    <link rel="self" href="https://lunchbox.qnv.pw/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[DI(依存性の注入)について]]></title>
+        <id>https://lunchbox.qnv.pw/2020/04/09/di/</id>
+        <link href="https://lunchbox.qnv.pw/2020/04/09/di/">
+        </link>
+        <updated>2020-04-09T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[DIについての解説]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[docker-compose を CentOS8 に導入するまで]]></title>
+        <id>https://lunchbox.qnv.pw/2019/10/29/docker-compose-centos8/</id>
+        <link href="https://lunchbox.qnv.pw/2019/10/29/docker-compose-centos8/">
+        </link>
+        <updated>2019-10-29T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Centos環境にdocker-composeを導入して使い始めるまで。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dockerで速攻でFTPサーバを立てて外部から見れるようにするまで]]></title>
+        <id>https://lunchbox.qnv.pw/2021/01/05/docker-ftp/</id>
+        <link href="https://lunchbox.qnv.pw/2021/01/05/docker-ftp/">
+        </link>
+        <updated>2021-01-05T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[とりあえずサクッとFTPサーバを立てる]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[gitで過去コミットのauthorとcommiterを変更する]]></title>
+        <id>https://lunchbox.qnv.pw/2019/06/17/git-author-commiter/</id>
+        <link href="https://lunchbox.qnv.pw/2019/06/17/git-author-commiter/">
+        </link>
+        <updated>2019-06-17T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[githubにコミットしたらOSのユーザ名が出ちゃったときの話。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[git push 時のコミッター名が Github アカウントと一致しない問題]]></title>
+        <id>https://lunchbox.qnv.pw/2019/09/15/git-push-github/</id>
+        <link href="https://lunchbox.qnv.pw/2019/09/15/git-push-github/">
+        </link>
+        <updated>2019-09-15T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Github にgit pushする際、Github のアカウント名義でコミットするのに手間取ったのでメモ。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Githubで自分のリポジトリを複製する]]></title>
+        <id>https://lunchbox.qnv.pw/2019/06/14/github-fork/</id>
+        <link href="https://lunchbox.qnv.pw/2019/06/14/github-fork/">
+        </link>
+        <updated>2019-06-14T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[自分のリポジトリを複製して新しいリポジトリを作る方法]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[gridsomeで日本語ファイル名のmarkdownを認識できるようにする]]></title>
+        <id>https://lunchbox.qnv.pw/2020/07/31/gridsome-markdown/</id>
+        <link href="https://lunchbox.qnv.pw/2020/07/31/gridsome-markdown/">
+        </link>
+        <updated>2020-07-31T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[gridsomeで日本語ファイル名のmdをスキャンさせたらpathがおかしくなった]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Javascriptの論理演算子(&&,||)について知らなかったこと]]></title>
+        <id>https://lunchbox.qnv.pw/2020/06/23/javascript/</id>
+        <link href="https://lunchbox.qnv.pw/2020/06/23/javascript/">
+        </link>
+        <updated>2020-06-23T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[論理演算子のトリッキーな使い方を知ったので]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[jsの変数の中身をクリップボードにコピーする]]></title>
+        <id>https://lunchbox.qnv.pw/2020/11/09/js/</id>
+        <link href="https://lunchbox.qnv.pw/2020/11/09/js/">
+        </link>
+        <updated>2020-11-09T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[chromeの開発者ツールでjsの変数の中身をコピーする方法]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JWT についてまとめ]]></title>
+        <id>https://lunchbox.qnv.pw/2019/09/07/jwt/</id>
+        <link href="https://lunchbox.qnv.pw/2019/09/07/jwt/">
+        </link>
+        <updated>2019-09-07T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[JWTについてわかったことメモ]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Oracle DBの日付型についてまとめ]]></title>
+        <id>https://lunchbox.qnv.pw/2020/04/14/oracle/</id>
+        <link href="https://lunchbox.qnv.pw/2020/04/14/oracle/">
+        </link>
+        <updated>2020-04-14T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[oracleの日付型まとめ]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PWA の WebPush 機能を試した]]></title>
+        <id>https://lunchbox.qnv.pw/2020/02/02/pwa-webpush/</id>
+        <link href="https://lunchbox.qnv.pw/2020/02/02/pwa-webpush/">
+        </link>
+        <updated>2020-02-02T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[firebaseでweb push飛ばすハンズオン]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[schema.graphqlで使えるディレクティブについて]]></title>
+        <id>https://lunchbox.qnv.pw/2020/04/13/schema-graphql/</id>
+        <link href="https://lunchbox.qnv.pw/2020/04/13/schema-graphql/">
+        </link>
+        <updated>2020-04-13T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[aws amplifyでgraphQLを初めて触ったときのメモ]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spring bootでイベントハンドリングを実装する]]></title>
+        <id>https://lunchbox.qnv.pw/2019/07/11/spring-boot/</id>
+        <link href="https://lunchbox.qnv.pw/2019/07/11/spring-boot/">
+        </link>
+        <updated>2019-07-11T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[spring bootの@EventListnerについて。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Travis CIでVuepressの公開を自動化する]]></title>
+        <id>https://lunchbox.qnv.pw/2019/07/21/travis-ci-vuepress/</id>
+        <link href="https://lunchbox.qnv.pw/2019/07/21/travis-ci-vuepress/">
+        </link>
+        <updated>2019-07-21T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[静的サイトジェネレータ(vuepress)の成果物を自動デプロイする。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Vimium で Chrome をキーボードオンリーで操作する]]></title>
+        <id>https://lunchbox.qnv.pw/2019/09/14/vimium-chrome/</id>
+        <link href="https://lunchbox.qnv.pw/2019/09/14/vimium-chrome/">
+        </link>
+        <updated>2019-09-14T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[超便利なChrome拡張「vimium」の紹介]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VPS をレンタルしたときの初期設定]]></title>
+        <id>https://lunchbox.qnv.pw/2019/10/26/vps/</id>
+        <link href="https://lunchbox.qnv.pw/2019/10/26/vps/">
+        </link>
+        <updated>2019-10-26T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[conoha VPSをレンタルしたときの初期設定をメモ。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VSCode で Cascadia code を利用する]]></title>
+        <id>https://lunchbox.qnv.pw/2019/09/22/vscode-cascadia-code/</id>
+        <link href="https://lunchbox.qnv.pw/2019/09/22/vscode-cascadia-code/">
+        </link>
+        <updated>2019-09-22T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[ターミナルやコードエディタに最適なフォントをVSCodeに導入。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VSCode Remote Containerで開発環境をサクッと構築する]]></title>
+        <id>https://lunchbox.qnv.pw/2020/11/21/vscode-remote-container/</id>
+        <link href="https://lunchbox.qnv.pw/2020/11/21/vscode-remote-container/">
+        </link>
+        <updated>2020-11-21T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Remote Containerの使い方]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VSCode で SSH 接続する]]></title>
+        <id>https://lunchbox.qnv.pw/2019/10/25/vscode-ssh/</id>
+        <link href="https://lunchbox.qnv.pw/2019/10/25/vscode-ssh/">
+        </link>
+        <updated>2019-10-25T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[VSCodeでSSH接続する方法について]]></summary>
+    </entry>
+</feed>
