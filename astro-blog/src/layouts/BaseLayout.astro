@@ -1,0 +1,24 @@
+---
+import Header from '../components/Header.vue';
+import Footer from '../components/Footer.vue';
+
+interface Props {
+	pageTitle: string;
+}
+
+const { pageTitle } = Astro.props;
+---
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>{pageTitle} | Tech Lunch Box</title>
+</head>
+<body>
+  <Header client:load />
+  <main>
+    <slot />
+  </main>
+  <Footer client:load />
+</body>
+</html>

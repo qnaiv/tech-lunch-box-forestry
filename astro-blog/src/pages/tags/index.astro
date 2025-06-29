@@ -1,0 +1,31 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import BlogTags from '../../components/BlogTags.vue';
+import { getCollection } from 'astro:content';
+
+const allPosts = await getCollection('blog');
+
+const tags = [...new Set(allPosts.map(post => post.data.tags).flat())].filter(Boolean);
+
+const tagCounts = tags.map(tag => {
+  const postsWithTag = allPosts.filter(post => post.data.tags && post.data.tags.includes(tag));
+  return {
+    name: tag,
+    path: `/tags/${tag}`,
+    pages: postsWithTag.length,
+  };
+});
+---
+
+<BaseLayout title="All Tags">
+  <main class="container py-4">
+    <div class="row justify-content-center">
+      <div class="col-md-10">
+        <h1 class="text-center mb-4">All Tags</h1>
+        <ClientOnly>
+          <BlogTags :tags={tagCounts} />
+        </ClientOnly>
+      </div>
+    </div>
+  </main>
+</BaseLayout>

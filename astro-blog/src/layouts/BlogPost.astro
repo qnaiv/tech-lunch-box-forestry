@@ -1,0 +1,30 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import Header from '../components/Header.vue';
+import Footer from '../components/Footer.vue';
+
+interface Props {
+	post: CollectionEntry<'blog'>;
+}
+
+const { post } = Astro.props;
+const { Content } = await post.render();
+---
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>{post.data.title}</title>
+</head>
+<body>
+  <Header client:load />
+  <main>
+    <h1>{post.data.title}</h1>
+    <p>公開日: {post.data.date.toLocaleDateString()}</p>
+    <article>
+      <Content />
+    </article>
+  </main>
+  <Footer client:load />
+</body>
+</html>
